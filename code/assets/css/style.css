@@ -11,6 +11,8 @@ body{
 	font-size:1em;
 }
 
+/*HEADER*/
+
 header{
 	background-color: #EBEBEB;
 	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
@@ -25,10 +27,14 @@ header{
 
 }
 
+/*LOGO*/
+
 .logo{
 	height: 11vw;
 	width: auto;
 }
+
+/*BARRE DE NAVIGATION*/
 
 ul {
     list-style-type: none;
@@ -48,6 +54,7 @@ li{
 
 li:hover{background-color:#8018CD; cursor: pointer;}
 
+/*LIENS*/
 a{
 	color: white;
 	text-decoration: none;
@@ -56,6 +63,8 @@ a{
 a:hover{
 	color:white;
 }
+
+/*TITRES*/
 
 h1, h2{
 	text-transform: uppercase;
@@ -69,6 +78,8 @@ h2{
 	font-size:4vh;
 	text-transform: none;
 }
+
+/*PAGE ACCUEIL - A VOTRE SERVICE*/
 
 .avotreservice{
 	display: flex;
@@ -90,6 +101,33 @@ h2{
 	font-weight: bold;
 	font-size:4vh;
 }
+
+/*PAGE ACCUEIL - 9 DESTINATIONS*/
+
+.destination {
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url(assets/img/londres.png) no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #000000;
+    margin-bottom: 25px;
+}
+
+.description{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+}
+
+/*RESPONSIVE*/
 
 @media screen and (max-width: 750px) {
 

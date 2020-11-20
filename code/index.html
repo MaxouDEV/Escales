@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="slider.css">
+    <script src="slider.js"></script>
 	<title>Document</title>
 </head>
 <body>
@@ -24,9 +26,105 @@
 	</header>
 <section>
 	<h1>Destinations phares</h1>
+	<div class="slideshow-container">
+
+ <!-- Full-width images with number and caption text -->
+ <div class="mySlides fade">
+   <div class="numbertext">1 / 9</div>
+   <a href="" target="_blank">
+   <img src="assets/img/bali1.png" style="width:100%">
+ </a>
+   <div class="text">bali</div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">2 / 9</div>
+   <a href="" target="_blank">
+   <img src="assets/img/dubai1.png" style="width:100%">
+ </a>
+   <div class="text">dubai</div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">3 / 9</div>
+   <a href="" target="_blank">
+   <img src="assets/img/la1.png" style="width:100%">
+ </a>
+   <div class="text">bla</div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">4 / 9</div>
+   <a href="" target="_blank">
+   <img src="assets/img/londres1.png" style="width:100%">
+ </a>
+   <div class="text">london</div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">5 / 9</div>
+   <a href="" target="_blank">
+   <img src="assets/img/newyork1.png" style="width:100%">
+ </a>
+   <div class="text">newyork</div>
+</div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">6 / 9</div>
+   <a href="" target="_blank">
+   <img src="assets/img/paris1.png" style="width:100%">
+ </a>
+   <div class="text">paris</div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">7 / 9</div>
+   <a href="" target="_blank">
+   <img src="assets/img/tokyo1.png" style="width:100%">
+ </a>
+   <div class="text">tokyo</div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">8 / 9</div>
+   <a href="" target="_blank">
+   <img src="assets/img/toronto1.png" style="width:100%">
+ </a>
+   <div class="text">toronto</div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">9 / 9</div>
+   <a href="" target="_blank">
+   <img src="assets/img/venise1.png" style="width:100%">
+ </a>
+   <div class="text">venise</div>
+ </div>
+
+ <!-- Next and previous buttons -->
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+ <span class="dot" onclick="currentSlide(1)"></span>
+ <span class="dot" onclick="currentSlide(2)"></span>
+ <span class="dot" onclick="currentSlide(3)"></span>
+ <span class="dot" onclick="currentSlide(4)"></span>
+ <span class="dot" onclick="currentSlide(5)"></span>
+ <span class="dot" onclick="currentSlide(6)"></span>
+ <span class="dot" onclick="currentSlide(7)"></span>
+ <span class="dot" onclick="currentSlide(8)"></span>
+ <span class="dot" onclick="currentSlide(9)"></span>
+</div>
 </section>
 <section>
 	<h1>A votre service</h1>
+
+
+
 	<div class="avotreservice">
 		<p class="transport">Transports <br><br><img src="assets/img/transports.png" alt="transports" class="transport"></p>
 		<p class="transport">Hébergement<br><br><img src="assets/img/hebergement.png" alt="hébergement" class="transport"></p>
@@ -39,6 +137,10 @@
 <section>
 	<h1>Nos offres</h1>
 	<h2>Europe</h2>
+	<div class="destination">
+		<p><img src="assets/img/londres.png" alt="londres" class="destination"></p>
+		<div class="description"></div>
+	</div>
 	<h2>Amérique</h2>
 	<h2>Asie</h2>
 	</section>
