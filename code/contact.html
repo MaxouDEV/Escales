@@ -2,9 +2,71 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Nous contacter</title>
   </head>
   <body>
+
+    <header>
+      <div class="header">
+      <p><img src="assets/img/logo.png" alt="logo" class="logo"></p>
+    <ul>
+        <li><a href="quisommesnous.html">Qui sommes-nous ?</a></li>
+        <li><a href="nosoffres.html">Nos offres</a></li>
+        <li><a href="promotions.html">Promotions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+      </div>
+    </header>
+    <section>
+      <h1 class="nouscontacter">Nous contacter</h1>
+    </section>
+
+   <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+      <table class="form-style">
+         <tr>
+            <td>
+               <label>
+                  Votre nom <span class="required">*</span>
+               </label>
+            </td>
+            <td>
+               <input type="text" name="name" class="long"/>
+               <span class="error" id="errorname"></span>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label>
+                  Votre adresse e-mail <span class="required">*</span>
+               </label>
+            </td>
+            <td>
+               <input type="email" name="email" class="long"/>
+               <span class="error" id="erroremail"></span>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label>
+                  Message <span class="required">*</span>
+               </label>
+            </td>
+            <td>
+               <textarea name="message" class="long field-textarea"></textarea>
+               <span class="error" id="errormsg"></span>
+            </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>
+               <input type="submit" value="Envoyer">
+               <input type="reset" value="Réinitialiser">
+            </td>
+         </tr>
+      </table>
+   </form>
+
 
   </body>
 </html>
