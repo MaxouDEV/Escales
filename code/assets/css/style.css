@@ -126,6 +126,7 @@ h1{
   padding: 8px 15px 8px 15px;
   border-radius: 0.3em;
   font-weight: bold;
+	font-family: "Jost*", Ubuntu, sans-serif;
   color: #fff;
 }
 .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
