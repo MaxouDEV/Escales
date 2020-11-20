@@ -123,6 +123,7 @@ h2{
 
 /*PAGE ACCUEIL - 9 DESTINATIONS*/
 
+
 .destination {
 
 	display:flex;
@@ -139,16 +140,20 @@ height: 25vw;
 width: auto;
 }
 
-.carre:hover{
-	transform: scale(1.2);
-	transition: 1.5s;
+.villes{
+	display:flex;
+	flex-direction: row;
+	color:white;
+	background-color: #0881D1;
+	opacity: 75%;
+	font-size:20px;
 }
 
-.text{
-	position:absolute;
-	color:white;
-	font-size:20px;
+/*ZOOM SUR IMAGE*/
 
+.carre:hover{
+	transform: scale(1.1);
+	transition: 1.5s;
 }
 
 

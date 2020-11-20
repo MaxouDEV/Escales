@@ -3,6 +3,7 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 1150px;
+  display: grid;
   position: relative;
   margin: auto;
 }
@@ -39,22 +40,35 @@
   background-color: rgba(0,0,0,0.8);
 }
 
+/*box du nom de la ville et de la description*/
+.boxdefile{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position:absolute;
+  color:white;
+  max-width: 1150px;
+  background-color: rgb(221,129,164, 0.75);
+  bottom:0;
+}
 /* Caption text */
 .nomdeville {
-  color: #f2f2f2;
+  padding: 0.5em;
   text-transform: uppercase;
-  font-size: 4vh;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+  font-size: 6vh;
   text-align: center;
-  border:1px solid #DD81A4;
-  background-color: #DD81A4; opacity:75%;
+
+}
+
+.description {
+  padding: 0.6em;
+  font-size: 2.5vh;
+  text-align: justify;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
   font-size: 12px;
   position: absolute;
   top: 0;
