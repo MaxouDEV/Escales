@@ -49,7 +49,7 @@ li{
 	background-color:#6B00FF;
 	border-radius: 0.3em;
 	font-weight: bold;
-	font-size:1.4vw;
+	font-size: 1.4vw;
 }
 
 .sousmenu{
@@ -139,6 +139,11 @@ height: 25vw;
 width: auto;
 }
 
+.carre:hover{
+	transform: scale(1.2);
+	transition: 1.5s;
+}
+
 .text{
 	position:absolute;
 	color:white;
@@ -156,6 +161,9 @@ width: auto;
 	}
 
 	h1{ font-size: 4vh; }
+
+	.destination{ flex-direction: column;}
+	.carre{height:85vw;}
 }
 
 /* FORMULAIRE DE CONTACT */
