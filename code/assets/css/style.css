@@ -66,6 +66,23 @@ h1{
 	background-color: #ebebeb;
 	text-align: center;
 	color:#6B00FF;
+	margin-left:2%;
+	margin-right: 2%;
+}
+
+.transport{
+	width:40vw;
+	height: auto;
+	min-width:250px;
+	font-weight: bold;
+	font-size:4vh;
+}
+
+@media screen and(max-width: 1000px;){
+
+	nav{
+		display: none;
+	}
 }
 /* FORMULAIRE DE CONTACT */
 
