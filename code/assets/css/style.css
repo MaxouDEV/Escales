@@ -26,7 +26,7 @@ header{
 }
 
 .logo{
-	height: 10vw;
+	height: 11vw;
 	width: auto;
 }
 
@@ -43,7 +43,7 @@ li{
 	background-color:#6B00FF;
 	border-radius: 0.3em;
 	font-weight: bold;
-	font-size:1.2em;
+	font-size:1.4vw;
 }
 
 li:hover{background-color:#8018CD; cursor: pointer;}
@@ -57,11 +57,17 @@ a:hover{
 	color:white;
 }
 
-h1{
+h1, h2{
 	text-transform: uppercase;
 	color: #6B00FF;
 	font-size:6vh;
 	margin-left:2%;
+}
+
+h2{
+	color: #0881D1;
+	font-size:4vh;
+	text-transform: none;
 }
 
 .avotreservice{
@@ -85,12 +91,15 @@ h1{
 	font-size:4vh;
 }
 
-@media screen and(max-width: 1000px;){
+@media screen and (max-width: 750px) {
 
 	nav{
 		display: none;
 	}
+
+	h1{ font-size: 4vh; }
 }
+
 /* FORMULAIRE DE CONTACT */
 
 .nouscontacter
