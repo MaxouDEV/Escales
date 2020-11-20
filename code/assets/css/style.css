@@ -57,11 +57,17 @@ a:hover{
 	color:white;
 }
 
-h1{
+h1, h2{
 	text-transform: uppercase;
 	color: #6B00FF;
 	font-size:6vh;
 	margin-left:2%;
+}
+
+h2{
+	color: #0881D1;
+	font-size:4vh;
+	text-transform: none;
 }
 
 .avotreservice{
