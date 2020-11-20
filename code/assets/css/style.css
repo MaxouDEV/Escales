@@ -69,16 +69,31 @@ nav li:hover{
 	border-radius: 10px;
 	z-index:1000;
 	margin-top:0.5em;
-	padding:4em;	
-	padding-inline-start: 0px;
+	margin-left:-1.4em;
+	padding:1em;	
 }
+
 nav > ul li:hover .sousmenu{
 	display:flex;
 	position: absolute;
 	flex-direction: column;
 }
 
-.sousmenu :hover{background-color:#8018CD; cursor: pointer;
+.sousmenu li{
+	background-color:#6b00FF; 
+	font-size:0.9em;
+	padding: 0.5em;
+	padding-left:2em;
+	padding-right: 2em;
+	margin-left:1em;
+	margin-right: 1em;
+	margin-bottom:1.1em;
+	border-radius:10px;
+}
+
+.sousmenu li:hover{
+	background-color: #8018CD;
+	border-radius:10px;
 }
 
 /*LIENS*/
