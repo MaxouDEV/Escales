@@ -64,12 +64,13 @@ nav li:hover{
 
 .sousmenu{
 	display: none;
+	font-size:0.95em;
 	text-align:center;
 	background-color:#ebebeb;
 	border-radius: 10px;
 	z-index:1000;
-	margin-top:0.5em;
-	margin-left:-1.4em;
+	margin-top:0.6em;
+	margin-left: 19.55em;
 	padding:1em;	
 }
 
@@ -81,19 +82,18 @@ nav > ul li:hover .sousmenu{
 
 .sousmenu li{
 	background-color:#6b00FF; 
-	font-size:0.9em;
 	padding: 0.5em;
 	padding-left:2em;
 	padding-right: 2em;
 	margin-left:1em;
 	margin-right: 1em;
 	margin-bottom:1.1em;
-	border-radius:10px;
+	border-radius:0.3em;
 }
 
 .sousmenu li:hover{
 	background-color: #8018CD;
-	border-radius:10px;
+	border-radius:0.3em;
 }
 
 /*LIENS*/
@@ -159,14 +159,9 @@ h2{
 }
 
 .carre{
-height: 25vw;
-width: auto;
-display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  position:absolute;
-  color:white;
+	height: 25vw;
+	width: auto;
+	
 }
 
 .villes{
@@ -176,7 +171,7 @@ display:flex;
 	background-color: #0881D1;
 	opacity: 75%;
 	font-size:20px;
-	  max-width:350px;
+	max-width:350px;
 
 }
 
