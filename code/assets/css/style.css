@@ -1,3 +1,10 @@
+/* Ac completer avec la police Jost* */
+@font-face
+{
+	font-family:"Jost*";
+	src: url("font/") format("truetype");
+}
+
 body{
 	margin:0 auto;
 	font-family: 'Jost*', Ubuntu, sans-serif;
