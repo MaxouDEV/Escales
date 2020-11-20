@@ -55,13 +55,12 @@ li{
 .sousmenu{
 	display: none;
 	text-align: center;
-	background-color:white;
-	border:2px solid lightgrey;
+	background-color:#ebebeb;
 	border-radius: 5px;
 	padding:auto;
-	z-index:1;
+	z-index:1000;
 	margin-top:0.5em;
-	margin-left:-0.5em;
+	margin-left:-1.6em;
 	padding-inline-start: 0px;
 	padding:20px;
 }
