@@ -96,6 +96,7 @@ h1{
 .nouscontacter
 {
   text-align: center;
+	font-size: 2em;
 }
 .form-style {
   margin:10px auto;
@@ -163,7 +164,10 @@ textarea{
   -moz-box-shadow: 0 0 8px #88D5E9;
   -webkit-box-shadow: 0 0 8px #88D5E9;
   box-shadow: 0 0 8px #88D5E9;
-  border: 1px solid #88D5E9;
+  -moz-box-shadow: 0 0 8px #6B00FF;
+  -webkit-box-shadow: 0 0 8px #6B00FF;
+  box-shadow: 0 0 8px #6B00FF;
+  border: 1px solid #6B00FF;
 }
 .error{
   color: #D8000C;
