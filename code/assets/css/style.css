@@ -40,7 +40,7 @@ ul {
     list-style-type: none;
 }
 
-li{
+.nav{
 	margin:0.5em;
 	display : inline;
 	padding:0.5em;
@@ -71,7 +71,7 @@ nav > ul li:hover .sousmenu{
 	flex-direction: column;
 }
 
-li:hover{background-color:#8018CD; cursor: pointer;}
+.nav, .sousmenu :hover{background-color:#8018CD; cursor: pointer;}
 
 /*LIENS*/
 a{
@@ -166,82 +166,130 @@ width: auto;
 	.carre{height:85vw;}
 }
 
-/* FORMULAIRE DE CONTACT */
 
-.nouscontacter
+/* Footer */
+.site-footer
+{
+  background-color:#26272b;
+  padding:0.2em 0 20px;
+  font-size:1.3em;
+  color:#737373;
+
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#8018CD;
+  text-decoration:none;
+}
+.footer-links
+{
+  /* border: solid black 2px; */
+  padding-left:30%;
+  width: 50%;
+  list-style:none;
+}
+.footer-links li
+{
+  display:block;
+  margin-bottom: 0.2em;
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#8018CD;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block;
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.icons{
+  width: 10%;
+  height: 10%;
+}
+
+.copyright-text
 {
   text-align: center;
-	font-size: 2em;
 }
-.form-style {
-  margin:10px auto;
-  width: 400px;
-  padding: 20px 12px 10px 20px;
-  font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
 }
-
-.form-style td {
-  padding: 0;
-  display: block;
-  list-style: none;
-  margin: 10px 0 0 0;
-}
-
-.form-style label{
-  margin:0 0 3px 0;
-  padding:0px;
-  display:block;
-  font-weight: bold;
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
 }
 
-.form-style .required{
-  color:red;
+.social-icons
+{
+  padding-left:0;
+  margin-top:0;
+  margin-right: 20%;
+  list-style:none;
+  /* border: solid black 2px; */
 }
-.form-style input[type=submit], .form-style input[type=reset]{
-  background: #6B00FF;
-  padding: 8px 15px 8px 15px;
-  border-radius: 0.3em;
-  font-weight: bold;
-	font-family: "Jost*", Ubuntu, sans-serif;
-  color: #fff;
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:0.2em;
+  margin-right: 2%;
 }
-.form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
-  background: #8018CD;
-  cursor: pointer;
-  box-shadow:none;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
+.social
+{
+	width: 50%;
+	/* border: solid red 2px; */
 }
-.form-style .field-textarea{
-  height: 100px;
+.menu
+{
+	/* border: solid green 2px; */
+	width: 50%
 }
-.form-style input[type=text],
-.form-style input[type=email],
-textarea{
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  border:1px solid #BEBEBE;
-  padding: 7px;
-  margin:0px;
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  outline: none;
+.container
+{
+	display: flex;
+  /* border: solid yellow 2px; */
+	justify-content:space-around;
+	align-items: center;
 }
-.form-style .long{
-  width: 100%;
-}
-.form-style input[type=text]:focus,
-.form-style input[type=email]:focus,
-.form-style textarea:focus{
-  -moz-box-shadow: 0 0 8px #88D5E9;
-  -webkit-box-shadow: 0 0 8px #88D5E9;
-  box-shadow: 0 0 8px #88D5E9;
-  border: 1px solid #88D5E9;
-}
-.error{
-  color: #D8000C;
-  background-color: #FFBABA;
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
 }
