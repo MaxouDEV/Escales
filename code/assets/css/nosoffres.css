@@ -1,41 +1,49 @@
 
 /*PAGE ACCUEIL - 9 DESTINATIONS*/
 
-.destination{
-	display:flex;
+.flex{
+	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	margin-left:7%;
-	margin-right:7%;
 }
 
-.image{
-	height: 25vw;
-	width: auto;
-	position:absolute;
-	
-}
-
-#villes{
-	display:block;
-	z-index: 1;
-	font-size:20px;
-	position: absolute;
-	bottom:0;
-	top:30em;
-	height:10vh;
-	width: auto;
+.bg{
+	height:17vh;
+	padding:5px;
+	width:auto;
+	max-width:350px;
 	color:white;
+	margin-top:59%;
+	font-size:1.3em;
 	background-color: rgb(8,129,209,0.75);
+
+}
+
+.bg1, .bg2, .bg3{
+	background-position: cover;
+	background-repeat: no-repeat;
+	height:50vh;
+	width: auto;
+}
+
+.bg1{
+	background-image: url(../img/londres2.png);
+}
+
+.bg2{
+	background-image: url(../img/paris2.png);
+}
+
+.bg3{
+	background-image: url(../img/venise2.png);
 }
 
 
 
 /*ZOOM SUR IMAGE*/
 
-.carre:hover{
+.bg1,.bg2,.bg3:hover,{
 	transform: scale(1.1);
 	transition: 1.5s;
 }
