@@ -121,36 +121,9 @@ h2{
 	text-transform: none;
 }
 
-/*PAGE ACCUEIL - A VOTRE SERVICE*/
-
-.avotreservice{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #ebebeb;
-	text-align: center;
-	color:#6B00FF;
-	margin-left:7%;
-	margin-right: 7%;
-}
-
-.transport{
-	width:40vw;
-	height: auto;
-	min-width:250px;
-	font-weight: bold;
-	font-size:4vh;
-}
-
-/*PAGE ACCUEIL - 9 DESTINATIONS*/
-
-
-.destination {
-
+.position {
 	display:flex;
-	flex-direction: row;
+	flex-direction:row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
@@ -159,20 +132,8 @@ h2{
 }
 
 .carre{
-	height: 25vw;
+	height: 20vw;
 	width: auto;
-
-}
-
-.villes{
-	display:flex;
-	flex-direction: row;
-	color:white;
-	background-color: #0881D1;
-	opacity: 75%;
-	font-size:20px;
-	max-width:350px;
-
 }
 
 /*ZOOM SUR IMAGE*/
@@ -182,22 +143,13 @@ h2{
 	transition: 1.5s;
 }
 
-
-/*RESPONSIVE*/
-
-@media screen and (max-width: 750px) {
-
-	nav{
-		display: none;
-	}
-
-	h1{ font-size: 4vh; }
-
-	.destination{ flex-direction: column;}
-	.carre{height:85vw;}
+/* PROMO */
+#txt_bali
+{
+	display: flex;
+	background-color: red;
+	font-size: 1.5em;
 }
-
-
 /* Footer */
 .site-footer
 {
