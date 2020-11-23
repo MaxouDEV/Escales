@@ -10,6 +10,7 @@ body{
 	font-family: 'Jost*', Ubuntu, sans-serif;
 	font-size:1em;
 }
+
 /*HEADER*/
 
 header{
@@ -39,8 +40,7 @@ ul {
     list-style-type: none;
 }
 
-.nav
-{
+.nav{
 	margin:0.5em;
 	display : inline;
 	padding:0.5em;
@@ -49,10 +49,52 @@ ul {
 	background-color:#6B00FF;
 	border-radius: 0.3em;
 	font-weight: bold;
-	font-size:1.4vw;
+	font-size: 1.4vw;
 }
 
-.nav:hover{background-color:#8018CD; cursor: pointer;}
+nav li{
+	background-color:#6B00FF;
+}
+
+nav li:hover{
+	background-color: #8018CD;
+	cursor:pointer;
+}
+
+
+.sousmenu{
+	display: none;
+	font-size:0.95em;
+	text-align:center;
+	background-color:#ebebeb;
+	border-radius: 10px;
+	z-index:1000;
+	margin-top:0.6em;
+	margin-left: 19.55em;
+	padding:1em;
+}
+
+nav > ul li:hover .sousmenu{
+	display:flex;
+	position: absolute;
+	flex-direction: column;
+}
+
+.sousmenu li{
+	background-color:#6b00FF;
+	padding: 0.5em;
+	padding-left:2em;
+	padding-right: 2em;
+	margin-left:1em;
+	margin-right: 1em;
+	margin-bottom:1.1em;
+	border-radius:0.3em;
+}
+
+.sousmenu li:hover{
+	background-color: #8018CD;
+	border-radius:0.3em;
+}
 
 /*LIENS*/
 a{
