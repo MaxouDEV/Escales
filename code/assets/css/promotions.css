@@ -121,36 +121,9 @@ h2{
 	text-transform: none;
 }
 
-/*PAGE ACCUEIL - A VOTRE SERVICE*/
-
-.avotreservice{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #ebebeb;
-	text-align: center;
-	color:#6B00FF;
-	margin-left:7%;
-	margin-right: 7%;
-}
-
-.transport{
-	width:40vw;
-	height: auto;
-	min-width:250px;
-	font-weight: bold;
-	font-size:4vh;
-}
-
-/*PAGE ACCUEIL - 9 DESTINATIONS*/
-
-
-.destination {
-
+.position {
 	display:flex;
-	flex-direction: row;
+	flex-direction:row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
@@ -159,20 +132,8 @@ h2{
 }
 
 .carre{
-	height: 25vw;
+	height: 20vw;
 	width: auto;
-
-}
-
-.villes{
-	display:flex;
-	flex-direction: row;
-	color:white;
-	background-color: #0881D1;
-	opacity: 75%;
-	font-size:20px;
-	max-width:350px;
-
 }
 
 /*ZOOM SUR IMAGE*/
@@ -182,22 +143,34 @@ h2{
 	transition: 1.5s;
 }
 
-
-/*RESPONSIVE*/
-
-@media screen and (max-width: 750px) {
-
-	nav{
-		display: none;
-	}
-
-	h1{ font-size: 4vh; }
-
-	.destination{ flex-direction: column;}
-	.carre{height:85vw;}
+/* PROMO */
+#container_img
+{
+	position: relative;
+	width: auto;
+	height: 25vw;
 }
-
-
+#img_ville
+{
+	position: relative;
+	z-index: 1;
+}
+#txt_promo
+{
+	display: flex;
+	position: absolute;
+	left: 60%;
+	z-index: 2;
+	background-color: #FA0419;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	font-size: 1.5em;
+	font-weight:bold;
+	font-family: Unbuntu, sans-serif;
+	height: 30%;
+	width:30%
+}
 /* Footer */
 .site-footer
 {
@@ -323,12 +296,4 @@ h2{
     margin-right:0;
     font-weight:600
   }
-}
-
-#conteneur 
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
 }
