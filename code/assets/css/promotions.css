@@ -142,13 +142,26 @@ h2{
 	transform: scale(1.1);
 	transition: 1.5s;
 }
+/*RESPONSIVE*/
 
+@media screen and (max-width: 750px) {
+
+	nav{
+		display: none;
+	}
+
+	h1{ font-size: 4vh; }
+
+	.promotions{ flex-direction: column;}
+	.carre{height:30vw;}
+}
 /* PROMO */
 #container_img
 {
 	position: relative;
 	width: auto;
-	height: 25vw;
+	height: 30vw;
+	/* border: solid green 2px; */
 }
 #img_ville
 {
@@ -170,6 +183,32 @@ h2{
 	font-family: Unbuntu, sans-serif;
 	height: 30%;
 	width:30%
+}
+
+.txt_prix
+{
+	display: flex;
+	justify-content:space-around;
+/* border: solid red 2px; */
+width: 100%;
+height: 100%;
+text-align: center;
+color: #6B00FF;
+}
+.ville
+{
+	text-align: center;
+	font-size: 3.5vh;
+	font-weight: bold;
+}
+
+.prix
+{
+text-align: right;
+color: red;
+font-family: Jost*, Ubuntu, sans-serif;
+font-weight: bold;
+
 }
 /* Footer */
 .site-footer
