@@ -324,3 +324,11 @@ h2{
     font-weight:600
   }
 }
+
+#conteneur 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
