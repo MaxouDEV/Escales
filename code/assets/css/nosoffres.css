@@ -1,0 +1,47 @@
+
+/*PAGE ACCUEIL - 9 DESTINATIONS*/
+
+.destination{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-left:7%;
+	margin-right:7%;
+}
+
+.image{
+	height: 25vw;
+	width: auto;
+	position:absolute;
+	
+}
+
+#villes{
+	display:block;
+	z-index: 1;
+	font-size:20px;
+	position: absolute;
+	bottom:0;
+	top:30em;
+	height:10vh;
+	width: auto;
+	color:white;
+	background-color: rgb(8,129,209,0.75);
+}
+
+
+
+/*ZOOM SUR IMAGE*/
+
+.carre:hover{
+	transform: scale(1.1);
+	transition: 1.5s;
+}
+
+@media screen and (max-width: 750px) {
+
+	.destination{ flex-direction: column;}
+	.carre{height:85vw;}
+}
