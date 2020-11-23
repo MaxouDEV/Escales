@@ -325,3 +325,12 @@ h2{
   }
 }
 
+.conteneur
+{
+	width: 500px;
+	border-left: 3px solid black;
+	text-align: justify;
+	padding: 12px;
+	margin: auto;
+	line-height: 2em;
+}
