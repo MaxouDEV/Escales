@@ -333,3 +333,18 @@ h2{
 	margin: auto;
 	line-height: 2em;
 }
+
+
+.pagetransport{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ebebeb;
+	text-align: center;
+	color:#0881D1;
+	margin-left:7%;
+	margin-right: 7%;
+	font-size: 50px;
+}
