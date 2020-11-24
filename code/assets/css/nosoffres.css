@@ -61,16 +61,16 @@
 
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
 .bg{
 	margin-top:73%;
 	font-size:1.2vh;
 
 }
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
-	height:25vw;
-	max-height:50vh;
-	width: 25vw;
+	height:70vh;
+	max-height:100vh;
+	width: 70vh;
 }
 
 }
@@ -85,6 +85,20 @@
 	height:auto;
 	max-height:50vh;
 	width: 50vh;
+}
+
+@media screen and (max-width: 420px) {
+.bg{
+	font-size:2vh;
+	margin-top:62%;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	height:auto;
+	max-height:43vh;
+	width: 43vh;
+}
+
 }
 
 @media screen and (max-width: 400px) {
