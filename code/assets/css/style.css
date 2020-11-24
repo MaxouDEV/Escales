@@ -33,6 +33,10 @@ header{
 	width: auto;
 }
 
+.logo:hover{
+	opacity: 80%;
+}
+
 /*BARRE DE NAVIGATION*/
 
 ul {
@@ -136,7 +140,8 @@ button{
 }
 
 button:hover{
-opacity:75%;
+	opacity:75%;
+	cursor:pointer;
 }
 
 label{
@@ -173,13 +178,13 @@ label{
 	text-align: center;
 	color:#6B00FF;
 	margin-left:7%;
-	margin-right: 7%;
+	margin-right:7%;
 }
 
 .transport{
-	width:20vw;
+	width:40vh;
 	height: auto;
-	min-width:250px;
+	min-width:10vh;
 	font-weight: bold;
 	font-size:4vh;
 }
@@ -210,14 +215,48 @@ label{
 
 /*RESPONSIVE*/
 
-@media screen and (max-width: 750px) {
+/*responsive de la page nos services*/
 
+@media screen and (max-width: 1350px) {
+
+	.transport{
+	width:25vh;
+	min-width:25vh;
+}
+}
+
+@media screen and (max-width: 1040px) {
+	.transport{
+		width:15vh;
+		font-size:2vh;
+		min-width:15vh;
+
+	}
+}
+
+
+@media screen and (max-width: 850px) {
+/*responsive barre de nav et h1*/
 	nav{
 		display: none;
 	}
 
 	h1{ font-size: 4vh; }
+
+	.transport{
+		width:15vw;
+		font-size:1.9vh;
+	}
 }
+
+@media screen and (max-width: 500px) {
+	.transport{
+		font-size:4vh;
+		width: 35vh;
+		min-width:25vh;
+	}
+}
+
 
 
 /* Footer */
