@@ -19,6 +19,7 @@
 	margin-top:11.9em;
 	font-size:1.3em;
 	background-color: rgb(8,129,209,0.75);
+	overflow: hidden;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
@@ -77,8 +78,8 @@
 
 @media screen and (max-width: 850px) {
 .bg{
-	font-size:2vh;
-	margin-top:62%;
+	font-size:3vh;
+	margin-top:58%;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
@@ -86,11 +87,18 @@
 	max-height:50vh;
 	width: 50vh;
 }
+}
+@media screen and (max-width: 700px) {
+.bg{
+	font-size:3vh;
+	margin-top:54%;
+}
+}
 
 @media screen and (max-width: 420px) {
 .bg{
-	font-size:2vh;
-	margin-top:62%;
+	font-size:3vh;
+	margin-top:59%;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
@@ -103,8 +111,8 @@
 
 @media screen and (max-width: 400px) {
 .bg{
-	font-size:2vh;
-	margin-top:62%;
+	font-size:3vh;
+	margin-top:59%;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
@@ -118,8 +126,8 @@
 
 @media screen and (max-width: 300px) {
 .bg{
-	font-size:2vh;
-	margin-top:62%;
+	font-size:2.5vh;
+	margin-top:50%;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
