@@ -5,40 +5,48 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	align-items: center;
+	margin-left:7%;
+	margin-right: 7%;
 }
 
 .bg{
-	height:17vh;
+	height:5em;
 	padding:5px;
 	width:auto;
-	max-width:350px;
+	max-width:460px;
 	color:white;
 	margin-top:59%;
 	font-size:1.3em;
 	background-color: rgb(8,129,209,0.75);
-
 }
 
-.bg1, .bg2, .bg3{
-	background-position: cover;
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	background-position: contain;
 	background-repeat: no-repeat;
-	height:50vh;
-	width: auto;
+	height:auto;
+	width: 60vh;
+	margin-bottom: 3%;
 }
 
-.bg1{
-	background-image: url(../img/londres2.png);
-}
+.bg1{background-image: url(../img/londres2.png);}
 
-.bg2{
-	background-image: url(../img/paris2.png);
-}
+.bg2{background-image: url(../img/paris2.png);}
 
-.bg3{
-	background-image: url(../img/venise2.png);
-}
+.bg3{background-image: url(../img/venise2.png);}
 
+.bg4{background-image: url(../img/la2.png);}
+
+.bg5{background-image: url(../img/newyork2.png);}
+
+.bg6{background-image: url(../img/toronto2.png);}
+
+.bg7{background-image: url(../img/tokyo2.png);}
+
+.bg8{background-image: url(../img/bali2.png);}
+
+.bg9{background-image: url(../img/dubai2.png);}
 
 
 /*ZOOM SUR IMAGE*/
@@ -48,8 +56,17 @@
 	transition: 1.5s;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1028px) {
+.bg{
+	margin-top:40%;
+}
 
-	.destination{ flex-direction: column;}
-	.carre{height:85vw;}
+}
+
+@media screen and (max-width: 500px) {
+.bg{
+	font-size:2vh;
+	margin-top:62%;
+}
+
 }
