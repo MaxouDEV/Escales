@@ -145,7 +145,7 @@ h2{
 .position {
 	display:flex;
 	flex-direction:row;
-	flex-wrap: wrap;
+	/* flex-wrap:nowrap; */
 	justify-content:space-between;
 	align-items: center;
 	margin-left:7%;
