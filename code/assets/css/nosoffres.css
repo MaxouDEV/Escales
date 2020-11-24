@@ -15,9 +15,8 @@
 	height:5em;
 	padding:5px;
 	width:auto;
-	max-width:460px;
 	color:white;
-	margin-top:59%;
+	margin-top:11.9em;
 	font-size:1.3em;
 	background-color: rgb(8,129,209,0.75);
 }
@@ -26,8 +25,10 @@
 	background-position: contain;
 	background-repeat: no-repeat;
 	height:auto;
+	max-height:60vh;
 	width: 60vh;
 	margin-bottom: 3%;
+	background-size: 100%;
 }
 
 .bg1{background-image: url(../img/londres2.png);}
@@ -51,22 +52,66 @@
 
 /*ZOOM SUR IMAGE*/
 
-.bg1,.bg2,.bg3:hover,{
+.bg1:hover,.bg2:hover,.bg3:hover,.bg4:hover,.bg5:hover,.bg6:hover,.bg7:hover,.bg8:hover,.bg9:hover {
 	transform: scale(1.1);
 	transition: 1.5s;
+	cursor:pointer;
 }
 
-@media screen and (max-width: 1028px) {
+
+}
+
+@media screen and (max-width: 1050px) {
 .bg{
-	margin-top:40%;
+	margin-top:73%;
+	font-size:1.2vh;
+
+}
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	height:25vw;
+	max-height:50vh;
+	width: 25vw;
 }
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 850px) {
 .bg{
 	font-size:2vh;
 	margin-top:62%;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	height:auto;
+	max-height:50vh;
+	width: 50vh;
+}
+
+@media screen and (max-width: 400px) {
+.bg{
+	font-size:2vh;
+	margin-top:62%;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	height:auto;
+	max-height:50vh;
+	width: 50vh;
+}
+
+}
+
+
+@media screen and (max-width: 300px) {
+.bg{
+	font-size:2vh;
+	margin-top:62%;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	height:auto;
+	max-height:37vh;
+	width: 37vh;
 }
 
 }
