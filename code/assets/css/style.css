@@ -120,6 +120,41 @@ h2{
 	text-transform: none;
 }
 
+/*BARRE DE RECHERCHES*/
+  
+form{
+	display:flex;
+	flex-direction:row;
+
+}
+#recherche {
+width:208px;
+height:24px;
+background:white;
+border:1px solid lightgrey;
+border-radius:0.5em;
+}
+  
+#recherche .loupe {
+background:url(../img/loupe.png) no-repeat 0 0;
+width:24px;
+}
+  
+#recherche input {
+outline:0;
+border:0;
+margin:0;
+height:24px;
+float:left;
+display:block;
+}
+  
+#recherche input[type=text] {
+background:none;
+width:15em;
+padding:0 9px;
+}
+
 /*NOS SERVICE - avec les 4 services proposés*/
 
 .avotreservice{
