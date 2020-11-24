@@ -120,7 +120,7 @@ h2{
 	text-transform: none;
 }
 
-/*PAGE ACCUEIL - A VOTRE SERVICE*/
+/*NOS SERVICE - avec les 4 services proposés*/
 
 .avotreservice{
 	display: flex;
@@ -141,6 +141,29 @@ h2{
 	min-width:250px;
 	font-weight: bold;
 	font-size:4vh;
+}
+
+/*Chaque page service a sa page de présentation*/
+
+
+.pageservices{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ebebeb;
+	text-align: center;
+	color:#0881D1;
+	margin-left:20%;
+	margin-right: 20%;
+	font-size: 2em;
+}
+
+/*image du service*/
+.service{
+	width:15vw;
+	height: auto;
 }
 
 
@@ -292,19 +315,4 @@ h2{
 	padding: 12px;
 	margin: auto;
 	line-height: 2em;
-}
-
-
-.pageservices{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #ebebeb;
-	text-align: center;
-	color:#0881D1;
-	margin-left:20%;
-	margin-right: 20%;
-	font-size: 50px;
 }
