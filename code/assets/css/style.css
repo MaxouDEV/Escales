@@ -114,6 +114,8 @@ h1, h2{
 	margin-left:7%;
 }
 
+h1{display:inline-block;}
+
 h2{
 	color: #0881D1;
 	font-size:4vh;
@@ -121,38 +123,42 @@ h2{
 }
 
 /*BARRE DE RECHERCHES*/
-  
-form{
-	display:flex;
-	flex-direction:row;
+ 
+.zonederecherche{
+		margin-left:6%;
+		display: inline-flex;
+		margin-bottom:5%;
+}
 
+button{
+	border:none;
+	background:none;
 }
-#recherche {
-width:208px;
-height:24px;
-background:white;
-border:1px solid lightgrey;
-border-radius:0.5em;
+
+button:hover{
+opacity:75%;
 }
-  
-#recherche .loupe {
-background:url(../img/loupe.png) no-repeat 0 0;
-width:24px;
+
+label{
+	color:grey;
+	font-size:1.2em;
 }
-  
-#recherche input {
-outline:0;
-border:0;
-margin:0;
-height:24px;
-float:left;
-display:block;
+
+.loupe{
+	border:none;
+	height:1.5em;
+	width:1.5em;
+	border:none;
 }
-  
-#recherche input[type=text] {
-background:none;
-width:15em;
-padding:0 9px;
+
+#search{
+	width:42vw;
+	padding:5px;
+	margin-left:5%;
+	margin-right:5%;
+	border:1px solid lightgrey;
+	color:darkgrey;
+	font-family:'Jost*';
 }
 
 /*NOS SERVICE - avec les 4 services proposés*/
