@@ -126,6 +126,10 @@ h2{
 	text-transform: none;
 }
 
+h4{
+	display:inline-block;
+}
+
 /*BARRE DE RECHERCHES*/
  
 .zonederecherche{
@@ -265,10 +269,29 @@ label{
 
 /*Page de destination*/
 
+.info{
+	text-align:center;
+	background-color: #DCDCDC;
+	padding-top:1em;
+	padding-bottom: 1em;
+	margin-left:7%;
+	margin-right:7%;
+}
+
+.categorie{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 3%;
+}
+
+.prix{
+	font-size:3.5vh;
+}
+
 .pagedestination{
 	margin-left:7%;
 	margin-right: 7%;
-	border:5px dotted darkgrey;
+	/*border:5px dotted darkgrey;*/
 	padding:1%;
 	padding-left:3%;
 	padding-right:3%;
@@ -285,9 +308,43 @@ label{
 }
 
 .imagesource:hover{
-	transform: scale(1.5);
+	transform: scale(1.1);
 	transition: transform 1s;
 }
+
+#pixabay{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-basis: 100%;
+	margin-bottom:3%;
+}
+.pixabay{
+	height:auto;
+	max-height:45vh;
+	width: 70vh;
+	display:block;
+}
+
+.pixabay:hover{
+	transform: scale(1.1);
+	transition: transform 1s;
+}
+
+@media screen and (max-width: 1080px) {
+	.imagesource{
+		width:58vh;
+		margin-bottom:1%;
+	}
+
+	.pixabay{
+		width: 58vh;
+		margin-bottom: 1%;
+
+	}
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -296,14 +353,22 @@ label{
 		margin-bottom:1%;
 	}
 
-	.pagedestination{
-		font-size:4vh;
+	.pixabay{
+		width: 60vh;
+		margin-bottom: 1%;
+
 	}
 }
 
 @media screen and (max-width: 500px) {
 	.imagesource{
 		width:32vh;
+	}
+
+	.pixabay{
+		width: 32vh;
+		margin-bottom: 1%;
+
 	}
 }
 
