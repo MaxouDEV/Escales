@@ -255,9 +255,52 @@ label{
 		width: 35vh;
 		min-width:25vh;
 	}
+
 }
 
+/*Page de destination*/
 
+.pagedestination{
+	margin-left:7%;
+	margin-right: 7%;
+	border:5px dotted darkgrey;
+	padding:1%;
+	padding-left:3%;
+	padding-right:3%;
+	text-align:justify;
+	background-color:#ebebeb;
+	font-size:2.5vh;
+}
+.imagesource{
+	height:40vh;
+	width: auto;
+	float:left;
+	margin-right:2%;
+	margin-top:2%;
+}
+
+.imagesource:hover{
+	transform: scale(1.2);
+	transition: transform 1s;
+}
+
+@media screen and (max-width: 800px) {
+
+	.imagesource{
+		height:25vh;
+		margin-bottom:1%;
+	}
+
+	.pagedestination{
+		font-size:4vh;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.imagesource{
+		height:22vh;
+	}
+}
 
 /* Footer */
 .site-footer
