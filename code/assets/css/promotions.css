@@ -129,16 +129,33 @@ h2{
 }
 /*RESPONSIVE*/
 
-@media screen and (max-width: 750px) {
-
+@media screen and (max-width: 834px)
+{
 	nav{
 		display: none;
 	}
-
-	h1{ font-size: 4vh; }
-
-	.promotions{ flex-direction: column;}
-	.carre{height:30vw;}
+	h1
+	{
+		text-align: center;
+		font-size: 3vh;
+	}
+	figcaption
+	{
+		font-size: 1em;
+		/* text-align: center; */
+	}
+	.ville
+	{
+		font-size: 0.5vh;
+	}
+.position
+{
+	flex-direction: column;
+}
+.promotions
+{
+	display: flex;
+}
 }
 /* PROMO */
 
@@ -146,10 +163,8 @@ h2{
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	justify-content:space-between;
+	justify-content:space-around;
 	align-items: center;
-	margin-left:7%;
-	margin-right:7%;
 }
 
 .carre{
