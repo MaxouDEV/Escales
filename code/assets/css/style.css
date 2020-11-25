@@ -201,11 +201,12 @@ label{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	border:5px dashed darkgrey;
 	justify-content: space-around;
 	align-items: center;
 	background-color: #ebebeb;
+	color:#6B00FF;
 	text-align: center;
-	color:#0881D1;
 	margin-left:15%;
 	margin-right: 15%;
 	font-size: 2em;
