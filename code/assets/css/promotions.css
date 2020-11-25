@@ -46,18 +46,18 @@ ul {
 	padding:0.5em;
 	padding-left:2em;
 	padding-right: 2em;
-	background-color:#6B00FF;
+	background-color:#626B8B;
 	border-radius: 0.3em;
 	font-weight: bold;
 	font-size: 1.4vw;
 }
 
 nav li{
-	background-color:#6B00FF;
+	background-color:#626B8B;
 }
 
 nav li:hover{
-	background-color: #8018CD;
+	background-color: #52417E;
 	cursor:pointer;
 }
 
@@ -81,7 +81,7 @@ nav > ul li:hover .sousmenu{
 }
 
 .sousmenu li{
-	background-color:#6b00FF;
+	background-color:#626B8B;
 	padding: 0.5em;
 	padding-left:2em;
 	padding-right: 2em;
@@ -92,7 +92,7 @@ nav > ul li:hover .sousmenu{
 }
 
 .sousmenu li:hover{
-	background-color: #8018CD;
+	background-color: #52417E;
 	border-radius:0.3em;
 }
 
