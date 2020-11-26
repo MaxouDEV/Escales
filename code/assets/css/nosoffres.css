@@ -54,8 +54,9 @@
 
 .bg1:hover,.bg2:hover,.bg3:hover,.bg4:hover,.bg5:hover,.bg6:hover,.bg7:hover,.bg8:hover,.bg9:hover {
 	transform: scale(1.1);
-	transition: 1.5s;
+	transition: 1s;
 	cursor:pointer;
+	box-shadow: 3px 3px 5px 3px #C1BDCA;
 }
 
 
