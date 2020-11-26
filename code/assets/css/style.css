@@ -132,6 +132,7 @@ h2{
 h3{
 	margin-top:1%;
 	margin-bottom:2%;
+	color:#565656;
 }
 
 h4{
@@ -238,7 +239,26 @@ label{
 	font-weight: bold;
 }
 
+#lirelasuite {
+  display:none;
+}
 
+.lirelasuite{
+	color:white;
+	font-weight: bold;
+	font-size:0.8em;
+	background-color: #475380;
+	padding:0.7em;
+	padding-left:8em;
+	padding-right:8em;
+	align-self:center;
+	text-align:center;
+	font-family:'Jost*', sans-serif;
+}
+
+.lirelasuite:hover{
+	background-color: #36306F;
+}
 
 /*RESPONSIVE*/
 
