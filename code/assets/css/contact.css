@@ -1,10 +1,11 @@
-/* Ac completer avec la police Jost* */
 @font-face
 {
-	font-family:"Jost*";
-	src: url("font/") format("truetype");
+	font-family:'Jost*';
+	src: url('../font/OpenType/Jost-300-Light.otf') format('otf');
+	src: url('../font/Jost-300-Light.ttf') format('truetype');
+	src: url('../font/OpenType/Jost-400-Book.otf') format('otf');
+	src: url('../font/Jost-400-Book.ttf') format('truetype');
 }
-
 body{
 	margin:0 auto;
 	font-family: 'Jost*', Ubuntu, sans-serif;
@@ -46,18 +47,18 @@ ul {
 	padding:0.5em;
 	padding-left:2em;
 	padding-right: 2em;
-	background-color:#6B00FF;
+	background-color:#626B8B;
 	border-radius: 0.3em;
 	font-weight: bold;
 	font-size: 1.4vw;
 }
 
 nav li{
-	background-color:#6B00FF;
+	background-color:#626B8B;
 }
 
 nav li:hover{
-	background-color: #8018CD;
+	background-color: #52417E;
 	cursor:pointer;
 }
 
@@ -81,7 +82,7 @@ nav > ul li:hover .sousmenu{
 }
 
 .sousmenu li{
-	background-color:#6b00FF;
+	background-color:#626B8B;
 	padding: 0.5em;
 	padding-left:2em;
 	padding-right: 2em;
@@ -92,7 +93,7 @@ nav > ul li:hover .sousmenu{
 }
 
 .sousmenu li:hover{
-	background-color: #8018CD;
+	background-color: #52417E;
 	border-radius:0.3em;
 }
 
@@ -119,16 +120,6 @@ h2{
 	color: #0881D1;
 	font-size:4vh;
 	text-transform: none;
-}
-
-/* RESPONSIVE */
-@media screen and (max-width: 750px) {
-
-	nav{
-		display: none;
-	}
-
-	h1{ font-size: 4vh; }
 }
 
 /* FORMULAIRE DE CONTACT */
@@ -163,7 +154,7 @@ h2{
   color:red;
 }
 .form-style input[type=submit], .form-style input[type=reset]{
-  background: #6B00FF;
+  background:#626B8B;
   padding: 8px 15px 8px 15px;
   border-radius: 0.3em;
   font-weight: bold;
@@ -171,7 +162,7 @@ h2{
   color: #fff;
 }
 .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
-  background: #8018CD;
+  background: #52417E;
   cursor: pointer;
   box-shadow:none;
   -moz-box-shadow:none;
@@ -337,4 +328,117 @@ textarea{
     margin-right:0;
     font-weight:600
   }
+}
+/* menu BURGER */
+* { box-sizing:border-box;}
+
+/* Menu burger */
+#menu-burger {position:absolute; top:0.5rem; right:1.5rem; display:inline-block; cursor:pointer;}
+#menu-burger .bar1,
+#menu-burger .bar2,
+#menu-burger .bar3 {width:32px; height:5px; background-color:#565656
+; margin:6px 0; transition:0.4s;}
+#menu-burger:hover {opacity:.75; transition:.5s;}
+#menu-burger.clicked .bar1 {-webkit-transform:rotate(-45deg) translate(-9px, 6px); transform:rotate(-45deg) translate(-9px, 6px);}
+#menu-burger.clicked .bar2 {opacity: 0;}
+#menu-burger.clicked .bar3 {-webkit-transform:rotate(45deg) translate(-8px, -8px); transform:rotate(45deg) translate(-8px, -8px);}
+
+/* Main menu (slide) */
+#menu {position:fixed; z-index:9999; left:-25%; top:0%; background:#26272b; padding:4em 2em; width:25%; min-height:100%;}
+#menu ul li {list-style:none;}
+#menu ul li a {display:block; color:#fff; text-decoration:none; font-weight:700; background:#626B8B; transition:background .5s; padding:1em; text-align:center; margin-bottom: 1.5em; box-shadow:1px 1px 0 #666}
+#menu ul li a:hover {background:#52417E; transition:background .5s;}
+#menu.visible {animation:.5s slideRight ease-in forwards; transition-delay:0;}
+#menu.invisible {animation:1s slideLeft ease-out forwards; transition-delay:0;}
+.social2
+{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: -5%;
+}
+.icon2
+{
+	margin-right: 1em;
+}
+
+/* Animations pour le menu slide */
+@keyframes slideRight {
+	from {left:-25%;}
+	to {left:0%;}
+}
+@-webkit-keyframes slideRight {
+	from {left:-25%;}
+	to {left:0%;}
+}
+@keyframes slideLeft {
+	from {left:0%;}
+	to {left:-25%;}
+}
+@-webkit-keyframes slideLeft {
+	from {left:0%;}
+	to {left:-25%;}
+}
+
+/* Responsive design */
+@media (max-width:1024px) {
+	#menu {left:-50%; width:50%;}
+	#menu-burger.clicked {position:fixed;}
+	#main-block,
+	#second-block {padding:4em 2em;}
+
+
+	/* Animations pour le menu slide */
+	@keyframes slideRight {
+		from {left:-50%;}
+		to {left:0%;}
+	}
+	@-webkit-keyframes slideRight {
+		from {left:-50%;}
+		to {left:0%;}
+	}
+	@keyframes slideLeft {
+		from {left:0%;}
+		to {left:-50%;}
+	}
+	@-webkit-keyframes slideLeft {
+		from {left:0%;}
+		to {left:-50%;}
+	}
+}
+@media (max-width:600px) {
+	#menu-burger {top:0.5rem; right:1.5rem; z-index:9999;}
+	#menu {left:-100%; width:100%;}
+
+	/* Animations pour le menu slide */
+	@keyframes slideRight {
+		from {left:-100%;}
+		to {left:0%;}
+	}
+	@-webkit-keyframes slideRight {
+		from {left:-100%;}
+		to {left:0%;}
+	}
+	@keyframes slideLeft {
+		from {left:0%;}
+		to {left:-100%;}
+	}
+	@-webkit-keyframes slideLeft {
+		from {left:0%;}
+		to {left:-100%;}
+	}
+}
+@media (min-width:751px)
+ {
+	 .bar1 , .bar2, .bar3
+	 {
+		 display: none;
+	 }
+ }
+
+ @media screen and (max-width: 750px) {
+	#menu_pc{
+		display: none;
+	}
 }
