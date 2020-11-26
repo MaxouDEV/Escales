@@ -16,7 +16,7 @@
 	padding:5px;
 	width:auto;
 	color:white;
-	margin-top:9.9em;
+	margin-top:8.5em;
 	font-size:1.3em;
 	background-color: rgb(8,129,209,0.75);
 	overflow: hidden;
@@ -26,8 +26,7 @@
 	background-position: contain;
 	background-repeat: no-repeat;
 	height:auto;
-	max-height:60vh;
-	width: 60vh;
+	width: 50vh;
 	margin-bottom: 3%;
 	background-size: 100%;
 }
@@ -64,14 +63,14 @@
 
 @media screen and (max-width: 1080px) {
 .bg{
-	margin-top:73%;
 	font-size:1.2vh;
+	margin-top:30%;
 
 }
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
-	height:70vh;
+	height:60vh;
 	max-height:100vh;
-	width: 70vh;
+	width: 60vh;
 }
 
 }
@@ -79,7 +78,7 @@
 @media screen and (max-width: 850px) {
 .bg{
 	font-size:3vh;
-	margin-top:58%;
+	margin-top:53%;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
@@ -88,17 +87,24 @@
 	width: 50vh;
 }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 735px) {
 .bg{
 	font-size:3vh;
-	margin-top:54%;
+	margin-top:53%;
+}
+}
+
+@media screen and (max-width: 735px) {
+.bg{
+		margin-top:50%;
+
 }
 }
 
 @media screen and (max-width: 420px) {
 .bg{
 	font-size:3vh;
-	margin-top:59%;
+	margin-top:54%;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
@@ -111,14 +117,14 @@
 
 @media screen and (max-width: 400px) {
 .bg{
-	font-size:3vh;
-	margin-top:59%;
+	font-size:2.7vh;
+	margin-top:50%;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
 	height:auto;
-	max-height:50vh;
-	width: 50vh;
+	max-height:40vh;
+	width: 40vh;
 }
 
 }
