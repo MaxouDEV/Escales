@@ -4,6 +4,8 @@
 	font-family:'Jost*';
 	src: url('../font/OpenType/Jost-300-Light.otf') format('otf');
 	src: url('../font/Jost-300-Light.ttf') format('truetype');
+	src: url('../font/OpenType/Jost-400-Book.otf') format('otf');
+	src: url('../font/Jost-400-Book.ttf') format('truetype');
 }
 
 body{
