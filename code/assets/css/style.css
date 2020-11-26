@@ -211,30 +211,24 @@ label{
 
 
 .pageservices{
-	border:5px dotted darkgrey;
-	background-color: #ebebeb;
-	text-align: justify;
-	font-size: 1.3em;
-	display:flex;
-	flex-direction:row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-content: center;
-	margin-left:15%;
-	margin-right: 15%;
-}
-
-.description{
-	display:inline-flex;
-
+	margin-left:7%;
+	margin-right: 7%;
+	/*border:5px dotted darkgrey;*/
+	padding:1%;
+	padding-left:3%;
+	padding-right:3%;
+	text-align:justify;
+	background-color:#ebebeb;
+	font-size:2.8vh;
 }
 
 /*image du service*/
 .service{
-	width:12vw;
-	height: auto;
-	display:inline-flex;
-	padding:10%;
+	height:auto;
+	width: 25vh;
+	float:left;
+	margin-right:2%;
+	margin-top:2%;
 }
 
 
@@ -280,6 +274,10 @@ label{
 		width: 35vh;
 		min-width:25vh;
 	}
+
+	.service{
+		display:none;
+}
 
 }
 
