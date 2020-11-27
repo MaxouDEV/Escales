@@ -3,7 +3,7 @@ body{
 }
 
 main{
-    width: 80%;
+    width: 86%;
     margin: auto;
 }
 
@@ -30,7 +30,7 @@ main{
 
 th
 {
-  height: 110px;
+  height: 18vh;
 
 }
 
@@ -38,7 +38,8 @@ th
 {
   color: #FFFFFF;
   text-decoration: none;
-  font-size:0.3em;
+  font-size:3vh;
+  text-align: justify;
 }
 
 .img-diapo:hover
@@ -50,13 +51,13 @@ th
 .elements{
     display: flex;
     transition: 1s linear;
-    font-size:0.8em;
 
 }
 
 .element{
     flex: 1 0 100%;
     position: relative;
+
 
 }
 
@@ -72,12 +73,58 @@ th
     text-align: center;
     background-color: #DD81A4; opacity:75%;
     padding: 0px;
+    margin-top: 5%;
 }
 
-@media screen and (max-width: 1080px) {
+.titre{
+    color:white;
+    text-transform: uppercase;
+    font-size:5vh;
+}
+
+  @media screen and (max-width: 1500px){
+
+.img-diapo,p
+{
+    font-size:3vh;
+    }
+
+    .titre{
+        font-size:5vh;
+    }
+
+    .caption{
+        margin-top:5%;
+    }
+
+
+
+}
+
+  @media screen and (max-width: 1400px){
+    .img-diapo,p
+{
+    font-size:2.3vh;
+
+    }
+
+    .titre{
+        font-size:5vh;
+    }
+
+    .caption{
+        margin-top:5%;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1330PX) and (max-width: 1366px) {
 .element{
-	margin-top:5%;
-	font-size:1.2vh;
+    margin-top:5%;
+  margin-bottom:3%;
+    font-size:9vh;
 
 }
 .caption{
@@ -87,8 +134,13 @@ th
     text-align: center;
     background-color: #DD81A4; opacity:70%;
     padding-top: 3px;
+    padding-bottom: 10px;
+            margin-top:5%;
+
 }
 }
+
+
 @media screen and (max-width: 1112px) {
 .element{
 	margin-top:5%;
@@ -102,13 +154,25 @@ th
     text-align: center;
     background-color: #DD81A4; opacity:70%;
     padding-top: 3px;
+    margin-top:4%;
 }
+
+
+.img-diapo,p
+{
+    font-size:1.1vh;
+    }
+
+    .titre{
+        font-size:2.3vh;
+    }
 }
-@media screen and (min-width: 1330PX) and (max-width: 1366px) {
+
+
+@media screen and (max-width: 1080px) {
 .element{
-	margin-top:5%;
-  margin-bottom:3%;
-	font-size:9vh;
+    margin-top:5%;
+    font-size:1.2vh;
 
 }
 .caption{
@@ -118,9 +182,37 @@ th
     text-align: center;
     background-color: #DD81A4; opacity:70%;
     padding-top: 3px;
-    padding-bottom: 10px;
+    margin-top: 0%;
+
 }
+
+.img-diapo,p
+{
+    font-size:1.7vh;
+    }
+
+    .titre{
+        font-size:4vh;
+    }
 }
+
+@media screen and (max-width: 800px) {
+
+.img-diapo,p
+{
+    font-size:1.2vh;
+    }
+
+    .titre{
+        font-size:1.8vh;
+    }
+}
+    .caption{
+    margin-top:4%;
+}
+
+}
+
 
 
   @media screen and (max-width: 750px){
