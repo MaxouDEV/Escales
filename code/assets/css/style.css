@@ -118,8 +118,9 @@ a:hover{
 h1, h2{
 	text-transform: uppercase;
 	color: #6B00FF;
-	font-size:9vh;
+	font-size:6vh;
 	margin-left:7%;
+
 }
 
 h1{display:inline-block;}
@@ -128,6 +129,8 @@ h2{
 	color: #0881D1;
 	font-size:4vh;
 	text-transform: none;
+	margin-bottom:1em;
+	margin-top:1em;
 }
 
 h3{
@@ -195,8 +198,11 @@ label{
 	background-color: #ebebeb;
 	text-align: center;
 	color:#6B00FF;
+	margin-top:2%;
 	margin-left:7%;
 	margin-right:7%;
+	padding:2%;
+
 }
 
 .transport{
@@ -204,7 +210,7 @@ label{
 	height: auto;
 	min-width:10vh;
 	font-weight: bold;
-	font-size:4vh;
+	font-size:6vh;
 }
 
 .transport:hover{
@@ -218,6 +224,7 @@ label{
 .pageservices{
 	margin-left:7%;
 	margin-right: 7%;
+	margin-top:2%;
 	/*border:5px dotted darkgrey;*/
 	padding:1%;
 	padding-left:3%;
@@ -270,6 +277,8 @@ label{
 	.transport{
 	width:25vh;
 	min-width:25vh;
+	font-size:7vh;
+
 }
 }
 
@@ -281,12 +290,9 @@ label{
 
 	}
 }
-
-	h1{ font-size: 4vh; }
-
 	.transport{
 		width:15vw;
-		font-size:1.9vh;
+		font-size:2vh;
 	}
 }
 
@@ -411,16 +417,19 @@ label{
   font-size:1.3em;
   color:#737373;
   margin-top:2em;
+  padding-top:1em;
+  padding-bottom:1em;
 
 }
 .site-footer hr
 {
   border-top-color:#bbb;
-  opacity:0.5
+  opacity:0.5;
+  margin:1em;
 }
 .site-footer hr.small
 {
-  margin:20px 0
+  margin:20px 0;
 }
 
 .site-footer a

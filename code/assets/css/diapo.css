@@ -4,7 +4,9 @@ body{
 
 main{
     width: 86%;
-    margin: auto;
+    margin: 0 auto;
+    padding:0;
+    margin-bottom: 3%;
 }
 
 .diapo{
@@ -28,24 +30,9 @@ main{
     left: 20px;
 }
 
-th
-{
-  height: 18vh;
-
-}
-
-.img-diapo,p
-{
-  color: #FFFFFF;
-  text-decoration: none;
-  font-size:3vh;
-  text-align: justify;
-}
-
-.img-diapo:hover
-{
-  color:#FFFFFF;
-
+#nav-droite:hover, #nav-gauche:hover{
+    cursor:pointer;
+    opacity:95%;
 }
 
 .elements{
@@ -57,6 +44,7 @@ th
 .element{
     flex: 1 0 100%;
     position: relative;
+    width: 5%;
 
 
 }
@@ -67,157 +55,10 @@ th
 
 }
 
-.caption{
-    position: absolute;
-    top: 65.5%;
-    text-align: center;
-    background-color: #DD81A4; opacity:75%;
-    padding: 0px;
-    margin-top: 5%;
+.imagee{
+    width:100%;
 }
 
-.titre{
-    color:white;
-    text-transform: uppercase;
-    font-size:5vh;
+.imagee:hover{
+    opacity: 0.9;
 }
-
-  @media screen and (max-width: 1500px){
-
-.img-diapo,p
-{
-    font-size:3vh;
-    }
-
-    .titre{
-        font-size:5vh;
-    }
-
-    .caption{
-        margin-top:5%;
-    }
-
-
-
-}
-
-  @media screen and (max-width: 1400px){
-    .img-diapo,p
-{
-    font-size:2.3vh;
-
-    }
-
-    .titre{
-        font-size:5vh;
-    }
-
-    .caption{
-        margin-top:5%;
-    }
-
-    
-}
-
-
-@media screen and (min-width: 1330PX) and (max-width: 1366px) {
-.element{
-    margin-top:5%;
-  margin-bottom:3%;
-    font-size:9vh;
-
-}
-.caption{
-
-    position: absolute;
-    top: 41%;
-    text-align: center;
-    background-color: #DD81A4; opacity:70%;
-    padding-top: 3px;
-    padding-bottom: 10px;
-            margin-top:5%;
-
-}
-}
-
-
-@media screen and (max-width: 1112px) {
-.element{
-	margin-top:5%;
-	font-size:1.2vh;
-
-}
-.caption{
-
-    position: absolute;
-    top: 41%;
-    text-align: center;
-    background-color: #DD81A4; opacity:70%;
-    padding-top: 3px;
-    margin-top:4%;
-}
-
-
-.img-diapo,p
-{
-    font-size:1.1vh;
-    }
-
-    .titre{
-        font-size:2.3vh;
-    }
-}
-
-
-@media screen and (max-width: 1080px) {
-.element{
-    margin-top:5%;
-    font-size:1.2vh;
-
-}
-.caption{
-
-    position: absolute;
-    top: 41%;
-    text-align: center;
-    background-color: #DD81A4; opacity:70%;
-    padding-top: 3px;
-    margin-top: 0%;
-
-}
-
-.img-diapo,p
-{
-    font-size:1.7vh;
-    }
-
-    .titre{
-        font-size:4vh;
-    }
-}
-
-@media screen and (max-width: 800px) {
-
-.img-diapo,p
-{
-    font-size:1.2vh;
-    }
-
-    .titre{
-        font-size:1.8vh;
-    }
-}
-    .caption{
-    margin-top:4%;
-}
-
-}
-
-
-
-  @media screen and (max-width: 750px){
-    main, .diapo , .elements
-    {
-      display:none;
-    }
-  }
