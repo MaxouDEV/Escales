@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.diapo{
+    position: relative;
+    overflow: hidden;
+}
+
+#nav-droite, #nav-gauche{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 3em;
+}
+
+#nav-droite{
+    right: 20px;
+}
+#nav-gauche{
+    left: 20px;
+}
+
+th
+{
+  height: 110px;
+}
+
+.img-diapo,p
+{
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+a
+{
+
+    text-transform: uppercase;
+}
+
+.img-diapo:hover
+{
+  color:#FFFFFF;
+}
+
+.elements{
+    display: flex;
+    transition: 1s linear;
+}
+
+.element{
+    flex: 1 0 100%;
+    position: relative;
+}
+
+
+.element > img{
+    width: 100%;
+}
+
+.caption{
+
+    position: absolute;
+    top: 65.5%;
+    text-align: center;
+    background-color: #DD81A4; opacity:75%;
+    padding: 0px;
+}
+
+@media screen and (max-width: 1080px) {
+.element{
+	margin-top:5%;
+	font-size:1.2vh;
+
+}
+.caption{
+
+    position: absolute;
+    top: 41%;
+    text-align: center;
+    background-color: #DD81A4; opacity:70%;
+    padding-top: 3px;
+}
+}
+@media screen and (max-width: 1112px) {
+.element{
+	margin-top:5%;
+	font-size:1.2vh;
+
+}
+.caption{
+
+    position: absolute;
+    top: 41%;
+    text-align: center;
+    background-color: #DD81A4; opacity:70%;
+    padding-top: 3px;
+}
+}
+@media screen and (min-width: 1330PX) and (max-width: 1366px) {
+.element{
+	margin-top:5%;
+  margin-bottom:3%;
+	font-size:9vh;
+
+}
+.caption{
+
+    position: absolute;
+    top: 41%;
+    text-align: center;
+    background-color: #DD81A4; opacity:70%;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+}
+
+
+  @media screen and (max-width: 750px){
+    main, .diapo , .elements
+    {
+      display:none;
+    }
+  }
