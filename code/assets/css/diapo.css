@@ -10,6 +10,7 @@ main{
 .diapo{
     position: relative;
     overflow: hidden;
+
 }
 
 #nav-droite, #nav-gauche{
@@ -30,42 +31,42 @@ main{
 th
 {
   height: 110px;
+
 }
 
 .img-diapo,p
 {
   color: #FFFFFF;
   text-decoration: none;
-
-}
-a
-{
-
-    text-transform: uppercase;
+  font-size:0.3em;
 }
 
 .img-diapo:hover
 {
   color:#FFFFFF;
+
 }
 
 .elements{
     display: flex;
     transition: 1s linear;
+    font-size:0.8em;
+
 }
 
 .element{
     flex: 1 0 100%;
     position: relative;
+
 }
 
 
 .element > img{
     width: 100%;
+
 }
 
 .caption{
-
     position: absolute;
     top: 65.5%;
     text-align: center;
